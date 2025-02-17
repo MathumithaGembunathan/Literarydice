@@ -1,7 +1,8 @@
 # Literarydice
 ~~~
+pip install gradio
 import random
-
+import gradio as gr
 def get_books_within_rating(genre, min_rating, max_rating):
     books_within_rating = []
     for i, j in data.iterrows():
