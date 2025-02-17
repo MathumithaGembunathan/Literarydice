@@ -27,5 +27,5 @@ def genre_recommendation_chatbot(genre, min_rating, max_rating):
         books_info.append(f"{i}. {book} (Rating: {rating})")
     return "\n".join(books_info)
 ~~~
-# OUTPUT
+# Sample
 ![image](https://github.com/user-attachments/assets/1ca476b1-7cb8-4973-bac8-4011360a8be0)
